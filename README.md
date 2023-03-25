@@ -8,6 +8,7 @@ Occurrence records are fundamental to macroecology, mostly in species distributi
 
 The biodrcrypt functioning is explained in details in Platania et al (2020) but it can be briefly summarised as follows:
 
+The main inputs for the functions are a matrix with longitude and latitude for all the occurrence data and a vector (in the same order) providing their identification. The records identified to species-level (identified records) must be indicated in the vector with a sequential numeric value (1, 2... n), which represents the verified membership to the nth species. The occurrence data with unknown identification (unidentified records) are marked with a 0.
 
 
 
